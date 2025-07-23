@@ -71,7 +71,7 @@ export default function BillForm() {
     e.preventDefault();
     setLoader(true);
     try {
-      const res = await axios.post(`${BASE_URL}/api/bill`, items, {
+      const res = await axios.post(`${BASE_URL}/api/bill/`, items, {
         withCredentials: true,
       });
 
