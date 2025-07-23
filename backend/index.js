@@ -12,7 +12,7 @@ connectMongoose(
 
 app.use(
   cors({
-    origin: ["http://localhost:5173","https://billgen.netlify.app"],
+    origin: ["http://localhost:5173","https://genrabills.netlify.app"],
     credentials: true,
   })
 );
