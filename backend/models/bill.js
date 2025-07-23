@@ -11,19 +11,19 @@ const billSchema = mongoose.Schema({
   },
   customerName: {
     type: String,
-    required: true,
+    required: false,
   },
   address: {
     type: String,
-    required: true,
+    required: false,
   },
   gstin: {
     type: String,
-    required: true,
+    required: false,
   },
   contractId: {
     type: String,
-    required: true,
+    required: false,
   },
   contractDate: {
     type: Date,
@@ -51,7 +51,7 @@ const billSchema = mongoose.Schema({
   ],
   contact: {
     type: Number,
-    required: true,
+    required: false,
   },
   createdAt: {
     type: Date,
